@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class DIO {
+	
+    public static void main(String[] args) throws IOException {
+    	Scanner leitor = new Scanner(System.in);
+    	double A = leitor.nextDouble();
+    	double B = leitor.nextDouble();
+    	double C;
+    
+    
+        C = (((B-A)*100.00)/A);
+    	//Escreva aqui a sua lógica
+    	
+    	double percentual =  B / A  -  1 ;
+    	System.out.println(String.format("%.2f", percentual * 100) + "%" );
+    	System.out.println();
+      
+    }
+	
+}
